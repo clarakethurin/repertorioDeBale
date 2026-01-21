@@ -27,19 +27,19 @@ body{
     font-family: "Cormorant Upright", serif;
     font-size: 8rem;
     
-    
 }
 
 .tituloPergunta{ 
     color: var(--cor-subtitulo);
     font-family: var(--fonte-secundária);
-    font-size: medium;
+    font-size: 4rem;
 }
 
 .tituloPergunta__resposta{ 
     color: var(--cor-subtitulo);
     font-family: var(--fonte-secundária);
-    font-size: small;
+    font-size: 2rem;
+    margin: 25px 150px 75px 150px ;
   
 }
 
