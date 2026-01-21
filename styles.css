@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 
 :root{
     --cor-background: #FFF8FA;
     --cor-titulo-principal: #5d2a42;
     --cor-subtitulo:  #7a4b63;
-    --fonte-principal: "Playfair Display", serif;
-    --fonte-secundária: "Lato", sans-serif;
+    --fonte-principal: "Playfair Display", serif; 
+    --fonte-secundária: "Lato", sans-serif; 
+    --fonte-titulo: "Cormorant Upright", serif;
   
 }
     
@@ -13,27 +16,33 @@
 
 body{
     background-color: var(--cor-background);
-    box-sizing: border-box; 
-    
+    box-sizing: border-box;
+    text-align: center;
+    font-family:  
    
 }
 
 .tituloPrincipal{
     color: var(--cor-titulo-principal);
-    font-family: var(--fonte-principal);
-    /* display: flex;
-    gap: 80px; */
+    font-family: "Cormorant Upright", serif;
+    font-size: 8rem;
+    
+    
 }
 
-.tituloPergunta{
+.tituloPergunta{ 
     color: var(--cor-subtitulo);
     font-family: var(--fonte-secundária);
     font-size: medium;
 }
 
-.tituloPergunta__resposta{
+.tituloPergunta__resposta{ 
     color: var(--cor-subtitulo);
     font-family: var(--fonte-secundária);
     font-size: small;
   
+}
+
+.tituloPergunta__resposta__botao{ 
+    
 }
