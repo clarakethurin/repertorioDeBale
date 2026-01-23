@@ -45,6 +45,7 @@ body{
 
 .tituloPergunta__resposta__botao{ 
     font-family: var(--fonte-principal);
+    color: #5d2a42;
     font-size: 4rem;
     background-color:var(--cor-botao);
     padding: 12px 28px;
@@ -52,10 +53,13 @@ body{
     border-radius: 12px;
     box-shadow: var(--cor-titulo-principal);
     width: 50%;
-    display: flex;
+    display: block;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
     text-decoration-line: none;
+    
     
 }
 .tituloPergunta__resposta__botao:hover{
