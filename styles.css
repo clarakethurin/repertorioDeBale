@@ -69,7 +69,7 @@ body{
 
 .rodape{
     background-color: #5d2a42;
-    color: #D9C6E8;
+    color: var(--cor-background);
     font-family: var(--fonte-secundária);
-    font-size: 1px;
+    font-size: 100%;
 }
