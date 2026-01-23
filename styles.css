@@ -66,3 +66,10 @@ body{
     background-color: var(--cor-titulo-principal); color: var(--cor-background);
     box-shadow: #5d2a42;
 }
+
+.rodape{
+    background-color: #5d2a42;
+    color: #D9C6E8;
+    font-family: var(--fonte-secundária);
+    font-size: 1px;
+}
