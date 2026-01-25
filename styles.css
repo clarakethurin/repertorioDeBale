@@ -82,3 +82,12 @@ body{
     padding: 20px;
     margin-top: 248px;
 }
+
+@media{
+    .tituloPergunta__resposta{
+        text-align: left;
+        display: flex;
+        gap: 4px;
+
+    }
+}
