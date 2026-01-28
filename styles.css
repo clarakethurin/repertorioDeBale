@@ -89,6 +89,26 @@ body{
     box-shadow: 0 0 30px rgba(93, 42, 66, 0.4);
 }
 
+.img-1{ 
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    float: left;
+    border-radius: 4%;
+}
+
+.img-2{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    float: right;
+    border-radius: 4%;
+}
+
+
+
+
+
 /* RODAPÉ */
 .rodape{
     background-color: var(--cor-titulo-principal);
