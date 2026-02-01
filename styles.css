@@ -25,12 +25,12 @@ body{
     color: var(--cor-titulo-principal);
     font-family: var(--fonte-secundaria);
     font-size: 2rem;
+    text-decoration: none;
     display: flex;
-    
-    padding: 0 90% 0 0;
+    row-gap: normal;
     border-radius: 12px;
     gap: 15px;
-    text-decoration: red;
+    
 }
 
 /* TÍTULO PRINCIPAL */
