@@ -21,6 +21,18 @@ body{
     line-height: 1.5;
 }
 
+.menu{
+    color: var(--cor-titulo-principal);
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    display: flex;
+    
+    padding: 0 90% 0 0;
+    border-radius: 12px;
+    gap: 15px;
+    text-decoration: red;
+}
+
 /* TÍTULO PRINCIPAL */
 .tituloPrincipal{
     color: var(--cor-titulo-principal);
