@@ -36,6 +36,7 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 4rem;
     margin-top: 30px;
+    margin: 2em 0 2em 0;
    
 }
 
@@ -89,13 +90,39 @@ body{
     box-shadow: 0 0 30px rgba(93, 42, 66, 0.4);
 }
 
+/*PERSONAGENS */
+.personagem{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 24px;
+    color: var(--cor-subtitulo);
+    
+}
+
+/*textos ao lado das imagens*/
+.personagem__texto{
+    margin: 28px 0 8px 8px;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    align-items: center;
+   
+}
+
+.nome-personagem{
+    font-size: 4rem;
+}
+
+/*imagens*/
 .img-1{ 
     max-width: 100%;
     height: auto;
     display: flex;
-    float: left;
     border-radius: 4%;
 }
+
+
 
 .img-2{
     max-width: 100%;
