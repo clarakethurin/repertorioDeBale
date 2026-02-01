@@ -95,7 +95,7 @@ body{
     display:grid;
     grid-template-columns: 50% 50%;
     gap: 24px;
-    align-items: start;
+    align-items: center;
     margin-bottom: 24px;
     color: var(--cor-subtitulo);
     
@@ -106,6 +106,7 @@ body{
     margin: 28px 0 8px 8px;
     line-height: 1.5;
     font-size: 1.8rem;
+    align-items: center;
     
    
 }
@@ -119,21 +120,9 @@ body{
     max-width: 100%;
     height: auto;
     display: flex;
+    flex-basis: 10%;
     border-radius: 4%;
 }
-
-
-
-.img-2{
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    float: right;
-    border-radius: 4%;
-}
-
-
-
 
 
 /* RODAPÉ */
