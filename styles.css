@@ -3,7 +3,7 @@
 :root{
     --cor-background: #FFF8FA;
     --cor-titulo-principal: #5d2a42;
-    --cor-subtitulo: #7a4b63;
+    --cor-subtitulo: #8b2f5f;
     --cor-botao: #D9C6E8;
 
     --fonte-principal: "Playfair Display", serif; 
@@ -13,11 +13,11 @@
 
 /* CONFIGURAÇÕES GERAIS */
 body{
-    background-image: url("img/b1.webp");
+    background-image: url("img/bsckground.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-color: rgba(0, 0, 0, 50);
+    /* background-color: rgba(0, 0, 0, 50); */
     /* background-color: var(--cor-background); */
     text-align: center;
     box-sizing: border-box;
